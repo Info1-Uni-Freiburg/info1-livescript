@@ -1,0 +1,25 @@
+# Mac-specific files
+.DS_Store
+
+# Tool-specific files
+**/.ipynb_checkpoints/
+**/__pycache__/
+
+# files in folders beginning with "."
+**/.*/**
+
+# ignore notebook build
+**/_build
+
+# ignore things inside slide converter folder
+slide-converter/*.tex
+slide-converter/*.md
+
+# ignore examples output
+examples/*.wav
+
+# ignore LaTeX build files
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
