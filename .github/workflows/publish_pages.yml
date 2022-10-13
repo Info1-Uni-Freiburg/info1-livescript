@@ -24,6 +24,9 @@ jobs:
       - name: Install required apt packages 
         run: DEBIAN_FRONTEND=noninteractive sudo apt-get install -y build-essential python3.10 python3-pip python3-dev git git-lfs time wget imagemagick
 
+      - name: Checkout LFS objects because checkout action is stupid?
+        run: git lfs checkout
+
       - name: Install Python dependecies
         run: |
           pip3.10 install --upgrade pip
