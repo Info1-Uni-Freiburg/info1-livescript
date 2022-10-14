@@ -1,0 +1,19 @@
+name: python 3.10
+dependencies:
+  - python=3.10
+  - numpy
+  - jupytext>=0.16
+  - altair
+  - bokeh
+  - folium
+  - ipywidgets
+  - matplotlib
+  - nbclient
+  - pandas
+  - plotly
+  - sphinx-click
+  - sphinx-examples
+  - sphinx_inline_tabs
+  - sphinx-proof
+  - sphinxext-rediraffe~=0.2.3
+  - sympy

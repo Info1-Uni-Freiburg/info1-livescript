@@ -3,8 +3,8 @@
 
 format: jb-book
 root: home
-# chapters:
+chapters:
 # - file: organisation
-# - file: infoI01
+- file: infoI01
 # - file: infoI02
 # - file: infoI07
