@@ -4,7 +4,7 @@
 format: jb-book
 root: home
 chapters:
-# - file: organisation
+- file: organisation
 - file: infoI01
 # - file: infoI02
 # - file: infoI07
