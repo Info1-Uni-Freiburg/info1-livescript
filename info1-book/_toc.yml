@@ -6,5 +6,5 @@ root: home
 chapters:
 - file: organisation
 - file: infoI01
-# - file: infoI02
+- file: infoI02
 # - file: infoI07

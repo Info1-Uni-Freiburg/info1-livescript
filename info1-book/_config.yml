@@ -57,6 +57,7 @@ sphinx:
   - sphinx_revealjs
   - sphinx_proof
   config:
+    language: de
     execution_show_tb: True
     nb_render_priority:
       revealjs:
